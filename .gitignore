@@ -1,0 +1,31 @@
+# Secrets
+.env
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# Generated artefacts (regenerate with `mxbess seed`)
+artifacts/
+*.xlsx.tmp
+
+# Local tool settings
+.claude/settings.local.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+maximo-bess-agent-plan.md
